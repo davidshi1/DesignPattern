@@ -3,6 +3,10 @@
 
 用了建造模式，用户就只需指定需要建造的类型就可以得到他们，而具体建造的过程和细节就不需知道了
 
+***结构图***
+
+![image](https://github.com/shishengjia/DesignPattern/blob/master/Pic/Builder.jpg)
+
 **示例代码**
 
 ```java
