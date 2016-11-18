@@ -1,0 +1,9 @@
+/adapter/
+/bridge/
+/builder/
+/facade/
+/memento/
+/prototype/
+/singleton/
+/template/
+/decorator/
