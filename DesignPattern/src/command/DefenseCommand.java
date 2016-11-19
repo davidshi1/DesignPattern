@@ -15,5 +15,4 @@ class DefenseCommand extends Command {
 	public String toString() {
 		return "Defense";
 	}
-
 }

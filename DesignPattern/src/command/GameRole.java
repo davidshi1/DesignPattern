@@ -21,7 +21,7 @@ class GameRole {
 	public void Heal(){
 		System.out.println(name+" Heal");
 	}
-	
+	//¹¥»÷¶ÓÓÑÃüÁî
 	public void AttackFriends(){
 		System.out.println(name+" AttackFriends");
 	}

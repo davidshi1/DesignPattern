@@ -15,5 +15,4 @@ class AttackFriendsCommand extends Command {
 	public String toString() {
 		return "AttackFriends";
 	}
-
 }

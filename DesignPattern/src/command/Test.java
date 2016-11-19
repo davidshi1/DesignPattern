@@ -22,6 +22,15 @@ public class Test {
 		
 		//Ö´ĞĞÃüÁî
 		operate.Notify();
+		
+//		2016-11-19 19:04:28 add command:Attack
+//		2016-11-19 19:04:28 add command:Defense
+//		2016-11-19 19:04:28 add command:Heal
+//		2016-11-19 19:04:28 add command:AttackFriends
+//		Tom Attack
+//		Tom Defense
+//		Tom Heal
+//		Warning You can not attack your friends!!!
 	}
 
 }
