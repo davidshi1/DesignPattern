@@ -1,0 +1,27 @@
+package command;
+
+//测试类
+public class Test {
+
+	public static void main(String[] args) {
+		//创建角色
+		GameRole role = new GameRole("Tom");
+		
+		//创建命令,并绑定角色role
+		Command command_1 = new AttackCommand(role);
+		Command command_2 = new DefenseCommand(role);
+		Command command_3 = new HealCommand(role);
+		Command command_4 = new AttackFriendsCommand(role);
+		
+		//设置命令
+		Operate operate = new Operate();
+		operate.SetCommands(command_1);
+		operate.SetCommands(command_2);
+		operate.SetCommands(command_3);
+		operate.SetCommands(command_4);
+		
+		//执行命令
+		operate.Notify();
+	}
+
+}
